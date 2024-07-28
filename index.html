@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Breaststroke Easily</title>
+    <script src="changeText.js" defer></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -82,11 +83,23 @@
         .cta-buttons a:hover {
             background-color: #0056b3;
         }
+
+        #text {
+            transition: opacity 1s ease-in-out;
+        }
+
+        .fade-out {
+            opacity: 0;
+        }
+
+        .fade-in {
+            opacity: 1;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>"평영이 왜 안늘지" 라고 생각하시나요? </h1>
+        <h1 id="text"> 지금 평영이 잘 안되시나요? </h1>
     </header>
     <div class="content">
         <div>
@@ -128,7 +141,7 @@
             <h3>혹시 그거 아시나요? 평영은 생존 수영으로 사용되는 영법 입니다. </h3>
         </div>
         <div class="center">
-            <h4>평영왕을 통해 다른 영법보다 평영의 완성도를 높여 혹시 모를 위험한 상황에서 유용하세 사용해보세요.</h4>
+            <h4>평영왕을 통해 다른 영법보다 평영의 완성도를 높여 혹시 모를 위험한 상황에서 유용하게 사용해보세요.</h4>
         </div>
         <div class="center">
             <h2>평영왕을 통해 한 곳에서 평영에 관련된 정보를 볼 수 있어요!</h2>
